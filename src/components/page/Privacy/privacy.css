@@ -1,0 +1,20 @@
+.privacy-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: x-large;
+
+}
+
+.privacy {
+    margin: 15px;
+    margin-bottom: 5%;
+}
+
+h1 {
+    margin: 15px;
+}

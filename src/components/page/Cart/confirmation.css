@@ -1,0 +1,43 @@
+.confirmation-text{
+    line-height: 30px;
+    text-align: center;
+}
+
+.btn-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-shopping{
+    min-width: 200px;
+    padding: 10px 20px;
+    border: 1px solid #BF3900;
+    text-align: center;
+}
+
+.btn-shopping:hover{
+    background: #BF3900;
+    color: white;
+}
+
+.btn-order{
+    min-width: 200px;
+    padding: 10px 20px;
+    border: 1px solid #707070;
+    text-align: center;
+}
+
+.btn-order:hover{
+    background: #707070;
+    color: white;
+}
+
+@media(max-width: 567px){
+    
+
+    .btn-shopping,  .btn-order{
+        min-width: 150px;
+    }
+}

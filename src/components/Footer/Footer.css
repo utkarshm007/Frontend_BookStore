@@ -1,0 +1,74 @@
+
+
+.mainFooter {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 16rem;
+}
+
+.detailsContainer {
+  flex-direction: row;
+  width: 20rem;
+  margin: 1rem 5rem;
+}
+
+.detailsContainer span {
+  font-size: 0.8rem;
+}
+
+.links-containor {
+  width: 10rem;
+  margin: 1rem 5rem;
+}
+.links-containor h4 {
+  font-size: 1.2rem;
+}
+.links-containor > ul > li > a {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.otherLinks-containor {
+  width: 15rem;
+  margin: 1rem 2rem;
+  padding: 0.5rem;
+}
+.otherLinks-containor > ul > li > a {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.media-contaonor {
+  width: 20rem;
+  margin: 1rem 2rem;
+  padding: 0.5rem;
+}
+
+.media-contaonor form input {
+  padding: 0.5rem;
+  width: 11.3rem;
+  border-radius: 5px;
+}
+
+.media-contaonor button {
+  padding: 0.5rem;
+  width: 11.3rem;
+  margin-top: 0.5rem;
+  border: 1px solid;
+  border-color: bisque;
+  border-radius: 5px;
+}
+
+.line-bar{
+  border: 1px solid;
+  border-color: white;
+}
+
+.footermark > p{
+  position: relative;
+  color: rgb(251, 251, 251);
+  background: black;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,41 @@
+.sidebar{
+    border: 1px solid #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section .profile-image{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+    padding: 10px;
+    margin: 20px;
+}
+
+.sidebar-menu{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sidebar-menu .menu-btn{
+    background: #D9D9D9;
+    border-bottom: 1px solid white;
+}
+
+.sidebar-btn-link{
+    display: block;
+    padding: 15px 20px;
+}
+
+.sidebar-menu .menu-btn:hover{
+    background: #707070;
+    color: white;
+}
+
+.sidebar-menu .menu-btn:last-child{
+    border-bottom: none;
+}

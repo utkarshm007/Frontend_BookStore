@@ -1,0 +1,25 @@
+.common-banner{
+    background: url("./../../asset//images/productpage_banner.jpg");  
+    height: 250px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-heading{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+@media(max-width: 567px){
+    .common-banner{
+        height: 100px;
+    }
+    .page-heading{
+        font-size: 1.2rem;
+    }
+}

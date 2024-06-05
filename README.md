@@ -1,2 +1,2 @@
-# Frontend_BookStore
-frontend for book store full stack application
+instead of npm install use this one
+npm install --legacy-peer-deps

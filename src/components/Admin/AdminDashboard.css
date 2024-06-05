@@ -1,0 +1,89 @@
+.admin-dashboard {
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .user-list h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .name-header {
+    padding-left: 20px;
+  }
+  
+  .name-cell {
+    padding-left: 20px;
+  }
+  
+  .action-header, .action-cell {
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  

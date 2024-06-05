@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(to right, #F8F6D7, #F8DBD7, #F8ECD7); */
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+ 
+h1, h2, h3, h4, h5, h6{
+    font-family: "Josefin Slab", serif !important;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+p, ul li{
+    font-family: "Josefin Slab", serif !important;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.web-btn-1{
+    border: 1px solid #BF3900;
+    background: transparent;
+    color: white;
+    font-style: italic;
+    width: 100%;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.web-btn-1:hover{
+    border: 1px solid #707070;
+    background: white;
+    color: black;
+    font-style: italic;
+    width: 100%;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.web-btn-2{
+    border: 1px solid #BF3900;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-radius: 5px;
+    min-height: 2.5rem !important;
+    /* height: 2.5rem !important; */
+    min-width: 150px;
+    transition: background 0.5s, color 0.5s;
+}
+
+.web-btn-2:hover{
+    border: 1px solid #707070;
+    background: black;
+    color: white;
+    letter-spacing: 1.2px;
+}
+
+.all-bg{
+    background: linear-gradient(178.57deg, rgba(248, 246, 215, 0.8) 0.4%, rgba(248, 220, 215, 0.636268) 71.51%, rgba(220, 248, 215, 0) 129.68%);
+}
+
+/* .page-slick-slider{
+    width: 100vw;
+    overflow: hidden;
+} */
+
+.btn-view-all{
+    width: 100px;
+    border: 1px solid #BF3900;
+    background-color: transparent;
+    min-height: 40px;
+    height: 40px;
+    border-radius: 5px;
+    transition: background 0.5s, color 0.5s;
+}
+
+.btn-view-all:hover{
+    border: none;
+    background: black;
+    color: white;
+}
+
+@media(max-width:567px){
+    .btn-view-all{
+        min-height: 35px;
+        height: 35px;
+    }
+}
+
+
+.web-btn-3{
+    border: 1px solid black;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    width: 100%;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    border-radius: 5px;
+    min-height: 40px;
+    transition: background 0.5s, color 0.5s;
+}
+.web-btn-3:hover{
+    background: black;
+    color: white;
+}

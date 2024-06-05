@@ -1,0 +1,22 @@
+
+.header{
+  /* background: rgba(248, 246, 215, 0.8) 0.4%; */
+  background-color: white;
+}
+
+.our-drawer{
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+
+.menu-btn-link{
+  width: 100%;
+  border-radius: 0;
+  border-bottom: 1px solid #707070;
+  padding: 15px 10px;
+}
+
+.menu-btn-link:last-child{
+  border-bottom: none;
+}

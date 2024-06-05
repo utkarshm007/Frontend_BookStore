@@ -1,0 +1,10 @@
+.about-us-content{
+    line-height: 35px;
+    text-align: justify;
+}
+
+@media(max-width:567px){
+    .about-us-content{
+        line-height: 25px;
+    }
+}
